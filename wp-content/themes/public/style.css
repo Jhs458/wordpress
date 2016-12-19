@@ -1,0 +1,229 @@
+@font-face {
+	font-family: 'responsive-test-font';
+	src:url('assets/responsive-test-font/fonts/responsive-test-font.eot?uiot0a');
+	src:url('assets/responsive-test-font/fonts/responsive-test-font.eot?#iefixuiot0a') format('embedded-opentype'),
+		url('assets/responsive-test-font/fonts/responsive-test-font.woff?uiot0a') format('woff'),
+		url('assets/responsive-test-font/fonts/responsive-test-font.ttf?uiot0a') format('truetype'),
+		url('assets/responsive-test-font/fonts/responsive-test-font.svg?uiot0a#responsive-test-font') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html, body{
+  padding: 0;
+  margin: 0;
+}
+
+.nav-bar{
+  width: 100%;
+  height: 70px;
+}
+
+#nav-con {
+  margin: 0 auto;
+  position: relative;
+  padding-top: 24px;
+}
+
+.logoDiv{
+  float: left;
+  width: 30%;
+}
+
+#logo{
+  position: relative;
+  left: 33%;
+}
+
+.nav-bar ul {
+	margin:0;
+	padding:0;
+  display:inline-block;
+  width: 67%;
+}
+
+.nav-bar li {
+  list-style: none;
+	float: left;
+}
+
+li a {
+	display:block;
+  margin: 10px;
+	text-align: center;
+  font-size: 12px;
+	color: #333333;
+	font-family: 'Lato';
+	text-decoration: none;
+  letter-spacing: 2px;
+}
+
+li button {
+  display:block;
+	min-width:100px;
+  margin-left: 20px;
+  font-size: 10px;
+	height: 30px;
+	text-align: center;
+	font-family: 'Lato';
+  background: #3477ff;
+  color: 	white;
+  border-width: 0;
+  letter-spacing: 1px;
+}
+
+#laptop{
+  width: 100%;
+  position: relative;
+}
+
+.centralize{
+  position: absolute;
+  z-index: 998;
+  top: 15vw;
+  left: 8vw;
+  font-family: 'Roboto';
+}
+
+.centralize h3{
+  letter-spacing: 1px;
+  font-size: 250%;
+}
+
+.centralize p{
+  letter-spacing: 1px;
+  -webkit-margin-before: .5em;
+  -webkit-margin-after: .5em;
+  color: #505050;
+  font-size: 110%;
+}
+
+.centralButtons{
+  display: inline-flex;
+  position: absolute;
+  top: 105%;
+  left: 0;
+}
+
+.centralButtons button{
+  border-width: 0;
+  font-size: 85%;
+  letter-spacing: 1px;
+  padding-left: 28px;
+  padding-right: 28px;
+}
+
+.centralButtons p{
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 8px;
+}
+
+#first{
+  background-color: orange;
+  color: white;
+}
+
+#second{
+  background-color: lightgrey;
+  color: white;
+}
+
+.threeBoxes{
+  /*float: left;*/
+  width: 100%;
+  display: inline-flex;
+
+}
+
+.threeBoxes div{
+  position: relative;
+  margin-top: 4vw;
+  margin-bottom: 4vw;
+  width: 33%;
+  padding-left: 10vw;
+
+}
+
+.threeBoxes h3{
+  font-family: 'Lato';
+  font-size: 120%;
+}
+
+.threeBoxes p{
+  font-family: 'Roboto';
+  -webkit-margin-before: .2em;
+  -webkit-margin-after: .2em;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'responsive-test-font';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+  font-size: 54px;
+  color: #3477ff;
+  position: absolute;
+  left: 12%;
+  top: 10%;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-banknote:before {
+	content: "\e600";
+}
+.icon-shop:before {
+	content: "\e601";
+}
+.icon-truck:before {
+	content: "\e602";
+}
+
+.footer{
+  padding-top: 1vw;
+  text-align: center;
+  background-color: #333333;
+  height: 24vw;
+
+}
+
+.footer h3{
+  color: white;
+  font-size: 200%;
+  letter-spacing: 2px;
+  padding-top: 2vw;
+  font-family: 'Roboto';
+}
+
+.footer p{
+  color: grey;
+  font-family: 'Lato';
+  padding: 2vw;
+}
+
+.email input{
+  height: 45px;
+  min-width:200px;
+  font-family: 'Lato';
+  color: lightgrey;
+  font-size: 90%;
+  padding-left: 20px;
+}
+
+.email button{
+  width:220px;
+  height: 51px;
+  text-align: center;
+	font-family: 'Lato';
+  background: #40efbb;
+  color: 	white;
+  border-width: 0;
+  letter-spacing: 1px;
+  font-size: 90%;
+}
